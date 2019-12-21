@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Bonjour","How do you do"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Heyy I missed you","Bonjour" ,"How do you do"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "Byebye","it was good to see you", "it was good to talk to you"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "I'll be waiting for you again" , "Goodbye, gonna miss you" ,"Byebye"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?","how old are you"],
+         "responses": ["I am 44 years old!", "I am anyway older than you", "old people do not prefer to tell their real age", "nevermind, I am young mature enough to serve you"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","shall i call you a bot or do you have a nickname","do you have a nickname",
+			"what shall i call you dudde","give me a name to call you with","Hi, what's your name"],
+         "responses": ["You can call me AmazonBot.", "I'm AmazonBot!", "I'm AmazonBot aka Tech With AmazonBot.","I'm your favorite bot,Amazonbot", "I am AmazonBot,ask for whatever you need",
+			"call me AmazonBot,Always at your service","AmazonBot"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat","where i can find your menu",
+			"i need sometheing,can someone serve me","Can you help me please?","How to chat with you","help?","please find","tell me your favourite order","what do you serve","products","Amazon","I need anything from Amazon", "lenovo","Apple","Iphone","Mobile","laptop","PC", "I want product from Amazon","Dell", "headphones","clothes","Nike","Addidas","New balance","book","keyboard","watches","bags"],
+         "responses": ["You can type Amazon and then the product you want and I'll find it for you", "type Amazon and then the product is on me","Amazon is my favorite market type Amazon and then choose the product you need","I always choose Amazon to help me find my favourite product","you just need to type Amazon and then i'll bring the product you need" ],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","what time do you open","when do yu open","when are you available","are you open now",
+			"what hours are you available in","is there anyone here to serve me","chat now ?","chat bot?","time"],
+         "responses": ["We are open 24 by 7","I am a bot dudde whenver there is internet I am here :'D ","Always at your service","whenever you need us"," My pleasure to serve you 24/7",
+			"I am available now"],
+         "context_set": ""
+        }
+   ]
+}
