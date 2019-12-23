@@ -6,7 +6,7 @@ from prediction import *
 import json
 
 
-app=Flask(__name__);
+app=Flask("andrew");
 
 
 
