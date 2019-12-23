@@ -8,7 +8,6 @@ chardet==3.0.4
 Click==7.0
 enum34==1.1.6
 Flask==1.1.1
-fluendo-eula==0.6
 funcsigs==1.0.2
 functools32==3.2.3.post2
 futures==3.3.0

@@ -17,7 +17,7 @@ app=Flask(__name__);
 @app.route('/messaging', methods =['GET','POST'])
 def chatService():
     clientMessage = request.get_json();
-
+    print clientMessage
     print clientMessage['Message'];
     botResponse = chat(clientMessage['Message']);
     return botResponse;
