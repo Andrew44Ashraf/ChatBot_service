@@ -16,11 +16,8 @@ def save_cluster(token, tag, patterns, responses):
   cluster.save()
 
 
-def get_clusters(token, tag=''):
-  if tag != '':
-    clusters = Cluster.objects(user_token=token)
-  else:
-    clusters = Cluster.objects(user_token=token, tag=tag)
+def get_clusters(token):
+  clusters = Cluster.objects(user_token=token)
 
   return clusters
 
